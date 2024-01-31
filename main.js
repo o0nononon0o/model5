@@ -121,3 +121,27 @@ window.addEventListener('scroll', () => {
 });
 
 }
+{
+  const form = document.querySelector('form');
+  const btn = document.querySelector('form .btn-submit');
+
+  form.addEventListener('input', () => {
+    const isRequired = form.checkValidity();
+    if (isRequired) {
+      btn.disabled = false;
+      btn.classList.add('is-active');
+      btn.classList.remove('is-inactive');
+      btn.addEventListener('mouseover', () => {
+        btn.style.opacity = .5;
+      });
+      btn.addEventListener('mouseleave', () => {
+        btn.style.opacity = 1;
+      });
+    } else {
+      btn.disabled = true;
+      btn.classList.add('is-unactive');
+      btn.classList.remove('is-active');
+    }
+  });
+
+}

@@ -207,6 +207,27 @@
     </div>
   </section>
 
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <form method="post" action="confirm.php">
+      <table>
+        <tr>
+          <th><label for="name">name</label></th>
+          <td><input type="text" id="name" name="name" placeholder="山田太郎" required></td>
+        </tr>
+        <tr>
+          <th><label for="email">email</label></th>
+          <td><input type="email" id="email" name="email" placeholder="abc@example.com" required></td>
+        </tr>
+        <tr>
+          <th><label for="message">message</label></th>
+          <td><textarea id="message" name="message" placeholder="お問い合わせ内容" required></textarea></td>
+        </tr>
+      </table>
+      <input type="submit" value="送信" class="btn-submit is-unactive" disabled>
+    </form>
+  </section>
+
   <footer>
     <div class="footer_outer container">
       <div class="footer_inner">
