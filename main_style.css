@@ -371,11 +371,12 @@ header .container{
   bottom: 0;
   left: 0;
   z-index: 10;
+  line-height: 1.2;
   width: 60%;
   height: auto;
   padding: 16px;
   box-sizing: border-box;
-  background: rgb(255, 255, 255, 0.8);
+  background: rgb(255, 255, 255, 0.9);
   text-align: center;
   transform: translateY(50px);
   transition: 2s .5s;
@@ -402,7 +403,7 @@ header .container{
 
 .purpose #pr1.is-show{
   transform: translateY(0);
-  opacity: .9;
+  opacity: 1;
 }
 
 .purpose #deco1{
