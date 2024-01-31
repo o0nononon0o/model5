@@ -530,7 +530,7 @@ header .container{
 }
 
 #pr h3{
-  transform: translateY(5px);
+  transform: translateY(10px);
   opacity: 0;
   transition: 2s .5s;
   position: absolute;
