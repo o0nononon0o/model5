@@ -83,5 +83,41 @@ window.addEventListener('scroll', () => {
   }
 });
 
+window.addEventListener('scroll', () => {
+  let cat = document.querySelector('.catch');
+  if (cat.getBoundingClientRect().top < window.innerHeight * 0.7) { 
+    cat.classList.add('is-show'); }
+});
+
+window.addEventListener('scroll', () => {
+  let purpose = document.querySelector('#purpose');
+  if (purpose.getBoundingClientRect().top < window.innerHeight * 0.7) { 
+    document.querySelector('.purpose_inner').classList.add('is-show'); 
+    document.querySelector('#pr1').classList.add('is-show'); 
+    document.querySelector('#deco1').classList.add('is-show'); 
+    document.querySelector('#deco2').classList.add('is-show'); }
+});
+
+window.addEventListener('scroll', () => {
+  let product_img = document.querySelector('.product_inner img');
+  if (product_img.getBoundingClientRect().top < window.innerHeight * 0.7) { 
+    product_img.classList.add('is-show'); }
+});
+
+window.addEventListener('scroll', () => {
+  let reviews = document.querySelectorAll('.review_outer');
+  reviews.forEach((review) => {
+  if (review.getBoundingClientRect().top < window.innerHeight * 0.7) { 
+    review.classList.add('is-show');
+   }
+  }
+)});
+
+window.addEventListener('scroll', () => {
+  let pr = document.querySelector('#pr');
+  if (pr.getBoundingClientRect().top < window.innerHeight * 0.7) { 
+    document.querySelector('#pr img').classList.add('is-show'); 
+    document.querySelector('#pr h3').classList.add('is-show');  }
+});
 
 }
