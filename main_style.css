@@ -360,7 +360,7 @@ header .container{
 
 /* purpose */
 #purpose {
-  background: #f0e5e4;
+  background: #f5f0f0;
   padding:32px 0;
 }
 .purpose{
@@ -427,7 +427,7 @@ header .container{
 
 .purpose #deco1.is-show{
   transform: translateY(0);
-  opacity: .7;
+  opacity: 1;
 }
 
 .purpose #deco2{
@@ -444,7 +444,7 @@ header .container{
 
 .purpose #deco2.is-show{
   transform: translateY(0);
-  opacity: .7;
+  opacity: 1;
 }
 
 /* product */
