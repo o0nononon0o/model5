@@ -340,7 +340,7 @@ header .container{
   border-radius: 8px;
   text-align: center;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(25px);
   transition: 2s;
 }
 
@@ -377,7 +377,7 @@ header .container{
   box-sizing: border-box;
   background: rgb(255, 255, 255, 0.9);
   text-align: center;
-  transform: translateY(50px);
+  transform: translateY(25px);
   transition: 2s .5s;
   opacity: 0;
 }
@@ -400,7 +400,7 @@ header .container{
   width: 80%;
   height: 80%;
   object-fit: cover;
-  transform: translateY(50px);
+  transform: translateY(25px);
   transition: 2s;
   opacity: 0;
 }
@@ -416,7 +416,7 @@ header .container{
   left: 0;
   width: 60px;
   height: auto;
-  transform: translateY(50px);
+  transform: translateY(25px);
   transition: 2s .5s;
   opacity: 0;
 }
@@ -432,7 +432,7 @@ header .container{
   right: 3%;
   height: 60px;
   width: auto;
-  transform: translateY(50px);
+  transform: translateY(25px);
   transition: 2s .5s;
   opacity: 0;
 }
@@ -460,7 +460,7 @@ header .container{
   width: 80%;
   height: auto;
   transition: 2s;
-  transform: translateY(50px);
+  transform: translateY(25px);
   opacity: 0;
 }
 
@@ -478,7 +478,7 @@ header .container{
 
 .review_outer{
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(25px);
   transition: 2s;
   background-color: #fff;
   margin-top: 16px;
@@ -543,7 +543,7 @@ header .container{
 
 #pr h3.is-show{
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 /* items */
