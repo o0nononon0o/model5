@@ -76,7 +76,7 @@
 });
 
 window.addEventListener('scroll', () => {
-  if(window.scrollY > 400){
+  if(window.scrollY > 500){
     document.querySelector('.top_btn').style.opacity = '1';
   } else {
     document.querySelector('.top_btn').style.opacity = '0';

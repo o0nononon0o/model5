@@ -429,7 +429,7 @@ header .container{
 .purpose #deco2{
   position: absolute;
   bottom: 0;
-  right: 5%;
+  right: 3%;
   height: 60px;
   width: auto;
   transform: translateY(50px);
@@ -717,6 +717,7 @@ footer{
 }
 
 footer .top_btn{
+  opacity: 0;
   width: 40px;
   height: 40px;
   border: 2px solid #6f6b6a;
