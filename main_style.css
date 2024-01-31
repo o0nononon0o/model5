@@ -530,18 +530,20 @@ header .container{
 }
 
 #pr h3{
+  transform: translateY(30px);
   opacity: 0;
   transition: 2s .5s;
   position: absolute;
   color: #fff;
   font-size: 28px;
   letter-spacing: 0.1rem;
-  bottom: 5%;
+  bottom: 10%;
   left: 3%;
 }
 
 #pr h3.is-show{
   opacity: 1;
+  transform: translateX(0);
 }
 
 /* items */
