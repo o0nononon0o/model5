@@ -359,6 +359,9 @@ header .container{
 } 
 
 /* purpose */
+#catch {
+  background: #ede4e1;
+}
 .purpose{
   margin: 32px auto;
   max-width: 800px;
