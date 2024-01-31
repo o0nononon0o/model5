@@ -363,7 +363,8 @@ header .container{
   background: #eedcdc;
 }
 .purpose{
-  margin: 32px auto;
+  margin: 0 auto;
+  padding:32px 0;
   max-width: 800px;
   height: 400px;
   position: relative;
@@ -399,7 +400,6 @@ header .container{
   position: absolute;
   top: 0;
   right: 0;
-  z-index: -1;
   width: 80%;
   height: 80%;
   object-fit: cover;
@@ -417,6 +417,7 @@ header .container{
   position: absolute;
   top: 5%;
   left: 0;
+  z-index:5;
   width: 60px;
   height: auto;
   transform: translateY(25px);
@@ -432,7 +433,8 @@ header .container{
 .purpose #deco2{
   position: absolute;
   bottom: 0;
-  right: 3%;
+  right: 1%;
+  z-index:5;
   height: 60px;
   width: auto;
   transform: translateY(25px);
