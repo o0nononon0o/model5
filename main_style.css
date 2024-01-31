@@ -382,7 +382,7 @@ header .container{
   background: rgb(255, 255, 255, 0.9);
   text-align: center;
   transform: translateY(25px);
-  transition: 2s .5s;
+  transition: 2s .8s;
   opacity: 0;
 }
 
@@ -421,7 +421,7 @@ header .container{
   width: 60px;
   height: auto;
   transform: translateY(25px);
-  transition: 2s .5s;
+  transition: 2s .8s;
   opacity: 0;
 }
 
@@ -438,7 +438,7 @@ header .container{
   height: 60px;
   width: auto;
   transform: translateY(25px);
-  transition: 2s .5s;
+  transition: 2s .8s;
   opacity: 0;
 }
 
@@ -537,7 +537,7 @@ header .container{
 #pr h3{
   transform: translateY(10px);
   opacity: 0;
-  transition: 2s .5s;
+  transition: 2s .8s;
   position: absolute;
   color: #fff;
   font-size: 28px;
