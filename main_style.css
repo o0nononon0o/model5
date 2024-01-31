@@ -361,10 +361,10 @@ header .container{
 /* purpose */
 #purpose {
   background: #f5e5e6;
+  padding:32px 0;
 }
 .purpose{
   margin: 0 auto;
-  padding:32px 0;
   max-width: 800px;
   height: 400px;
   position: relative;
