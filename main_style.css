@@ -54,6 +54,15 @@ h3{
   font-weight: bold;
 }
 
+h4{
+  margin: 0;
+  font-size: 48px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 4px #ebebeb, -1px -1px 2px #fff;
+}
+
 p{
   margin: 8px 0 0;
   line-height: 1.8;
@@ -90,6 +99,15 @@ a:hover{
 section{
   max-width: 1120px;
   margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.back{
+  position: absolute;
+  top: 0;
+  left: 48px;
+  z-index: -1;
 }
 
 /* header */
@@ -294,7 +312,7 @@ header{
 /* news */
 
 .news{
-  max-width: 480px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 32px 16px;
 }
@@ -370,7 +388,9 @@ header{
 #purpose {
   background: #fcf8f7;
   padding:32px 0;
+  box-sizing: border-box;
 }
+
 .purpose{
   margin: 0 auto;
   max-width: 800px;
@@ -487,6 +507,23 @@ header{
 #review{
   background-image: url(img/catch.jpg);
   background-repeat: no-repeat;
+  z-index: -10;
+}
+
+#review .container{
+  position: relative;
+}
+
+#review .back{
+  position: absolute;
+  top: 0;
+  left: 48px;
+  z-index: -1;
+}
+
+#review h4{
+  color: rgb(255, 230, 232);
+  text-shadow: 1px 1px 4px rgb(238, 213, 214), -1px -1px 2px rgb(255, 239, 240);
 }
 
 .review_outer{
@@ -604,7 +641,6 @@ header{
   max-width: 800px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 32px 0;
 }
 
 .sns_outer{
