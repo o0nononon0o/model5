@@ -106,7 +106,7 @@ window.addEventListener('scroll', () => {
 
 window.addEventListener('scroll', () => {
   let purpose = document.querySelector('#purpose');
-  if (purpose.getBoundingClientRect().top < window.innerHeight * 0.7) { 
+  if (purpose.getBoundingClientRect().top < window.innerHeight * 0.4) { 
     document.querySelector('.purpose_inner').classList.add('is-show'); 
     document.querySelector('#pr1').classList.add('is-show'); 
     document.querySelector('#deco1').classList.add('is-show'); 
