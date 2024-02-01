@@ -3,7 +3,7 @@ html { scroll-behavior: smooth;}
 /* common */
 body{
   margin: 0;
-  color: #4a4746;
+  color: #574a49;
   font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 }
 
@@ -30,7 +30,7 @@ h2::before{
   left: 0;
   width: 90%;
   height: 1px;
-  background: #6f6b6a;
+  background: #574a49;
 }
 
 h2::after{
@@ -40,7 +40,7 @@ h2::after{
   left: 0;
   width: 70%;
   height: 1px;
-  background: #6f6b6a;
+  background: #574a49;
 }
 
 h3{
@@ -100,6 +100,7 @@ header{
   position: fixed;
   top: 0;
   z-index: 100;
+  box-shadow: 0px 0px 8px -1px #574a49;
 }
 
 header .container{
@@ -121,7 +122,7 @@ header .container{
 .hamburger-menu_btn span{
   width: 24px;
   height: 2px;
-  background: #6f6b6a;
+  background: #574a49;
   border-radius: 2px;
   transition: .3s;
   position: absolute;
@@ -297,14 +298,14 @@ header .container{
   display: flex;
   align-items: start;
   justify-content: center;
-  border: 1px solid #6f6b6a;
+  border: 1px solid #ac9896;
 }
 
 .date_border-outer{
   width: 80px;
   height: 80px;
   flex-shrink: 0;
-  background: #6f6b6a;
+  background: #ac9896;
   text-align: center;
 }
 
@@ -360,7 +361,7 @@ header .container{
 
 /* purpose */
 #purpose {
-  background: #f5f0f0;
+  background: #fcf8f7;
   padding:32px 0;
 }
 .purpose{
@@ -492,9 +493,9 @@ header .container{
   align-items: center;
   gap: 16px;
   padding: 8px;
-  border: 1px solid #6f6b6a;
+  /* border: 1px solid #6f6b6a; */
   border-radius: 16px 16px 16px 0;
-  box-shadow: 2px 2px 2px 2px #ccc
+  box-shadow: 2px 2px 4px -1px #574a49, -2px -2px 1px -1px rgb(255, 255, 255);
 }
 
 .review_outer.is-show{
@@ -563,7 +564,7 @@ header .container{
 }
 
 .items_outer::-webkit-scrollbar-thumb{
-  background: #c1bab8;
+  background: #ac9896;
   border-radius: 16px;
 }
 
@@ -717,7 +718,7 @@ form .btn-submit.is-active{
 
 footer{
   font-size: 14px;
-  background: #6f6b6a;
+  background: #574a49;
   color: #fff;
   text-align: center;
   padding: 32px 0;
@@ -727,7 +728,7 @@ footer .top_btn{
   opacity: 0;
   width: 40px;
   height: 40px;
-  border: 2px solid #6f6b6a;
+  border: 2px solid #574a49;
   border-radius: 50%;
   background: #fff;
   position: fixed;
@@ -735,13 +736,14 @@ footer .top_btn{
   right: 32px;
   z-index: 100;
   cursor: pointer;
+  box-shadow: 2px 2px 4px -1px #574a49;
 }
 
 footer .top_btn::before{
   content: "";
   width: 16px;
   height: 3px;
-  background: #6f6b6a;
+  background: #574a49;
   border-radius: 2px;
   position: absolute;
   top: 45%;
@@ -753,7 +755,7 @@ footer .top_btn::after{
   content: "";
   width: 16px;
   height: 3px;
-  background: #6f6b6a;
+  background: #574a49;
   border-radius: 2px;
   position: absolute;
   top: 45%;
