@@ -130,7 +130,7 @@ window.addEventListener('scroll', () => {
 
 window.addEventListener('scroll', () => {
   let pr = document.querySelector('#pr');
-  if (pr.getBoundingClientRect().top < window.innerHeight * 0.9) { 
+  if (pr.getBoundingClientRect().top < window.innerHeight * 0.4) { 
     document.querySelector('#pr img').classList.add('is-show'); 
     document.querySelector('#pr h3').classList.add('is-show');  }
 });
