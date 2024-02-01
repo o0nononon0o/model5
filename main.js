@@ -7,13 +7,27 @@
       document.querySelector('.ham2').classList.remove('open');
       document.querySelector('.ham3').classList.remove('open');
       document.querySelector('.hamburger-menu_inner').classList.remove('open');
+      document.querySelector('body').classList.remove('open');
     } else {
       document.querySelector('.ham1').classList.add('open');
       document.querySelector('.ham2').classList.add('open');
       document.querySelector('.ham3').classList.add('open');
       document.querySelector('.hamburger-menu_inner').classList.add('open');
+      document.querySelector('body').classList.add('open');
     }
     });
+
+    const links = document.querySelectorAll('.hamburger-menu_inner a');
+    links.forEach((link)=>{link.addEventListener('click', () => {
+        document.querySelector('.ham1').classList.remove('open');
+        document.querySelector('.ham2').classList.remove('open');
+        document.querySelector('.ham3').classList.remove('open');
+        document.querySelector('.hamburger-menu_inner').classList.remove('open');
+      });
+    });
+
+
+
 
     const hero1 = document.querySelector('#hero1');
     const hero2 = document.querySelector('#hero2');
