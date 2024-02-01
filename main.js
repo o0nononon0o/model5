@@ -23,6 +23,7 @@
         document.querySelector('.ham2').classList.remove('open');
         document.querySelector('.ham3').classList.remove('open');
         document.querySelector('.hamburger-menu_inner').classList.remove('open');
+        document.querySelector('body').classList.remove('open');
       });
     });
 
