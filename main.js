@@ -122,7 +122,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
   let reviews = document.querySelectorAll('.review_outer');
   reviews.forEach((review) => {
-  if (review.getBoundingClientRect().top < window.innerHeight * 0.7) { 
+  if (review.getBoundingClientRect().top < window.innerHeight * 0.9) { 
     review.classList.add('is-show');
    }
   }
